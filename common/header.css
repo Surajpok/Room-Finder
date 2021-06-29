@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  color: black;
+}
+nav {
+  align-items: center;
+  list-style: none;
+  background-color: #fff;
+  height: 85px;
+  width: 100%;
+  border-bottom: #dbdbdb 1px solid;
+}
+.navLeft {
+  float: left;
+}
+.navRight {
+  float: right;
+  margin-right: 60px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 20px;
+}
+nav ul li a {
+  color: #000;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.logo {
+  height: 80px;
+  line-height: 80px;
+  padding: 0 80px 0 80px;
+  float: left;
+}
